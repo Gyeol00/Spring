@@ -17,12 +17,19 @@ public class User2Service {
         this.user2Mapper = user2Mapper;
     }
 
-    public void register(User2DTO user2DTO) {}
+    public void register(User2DTO user2DTO) {
+        user2Mapper.insertUser2(user2DTO);
+    }
+
     public List<User2DTO> findAll() {
         return user2Mapper.selectAllUser2();
     }
-    public void findById(String uid) {}
-    public void modify(User2DTO user2DTO) {}
+    public User2DTO findById(String uid) {
+        return user2Mapper.selectUser2(uid);
+    }
+    public void modify(User2DTO user2DTO) {
+        user2Mapper.updateUser2(user2DTO);
+    }
     public void delete(String uid) {}
 
 }

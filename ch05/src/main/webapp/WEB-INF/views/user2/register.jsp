@@ -11,7 +11,7 @@
     <title>user1::register</title>
 </head>
 <body>
-<h3>user1 등록</h3>
+<h3>user2 등록</h3>
 <a href="/ch05">처음으로</a>
 <a href="/ch05/user2/list">목록이동</a>
 

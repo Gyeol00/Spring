@@ -6,4 +6,20 @@
     <insert id="insertUser2">
         INSERT INTO `user2` VALUES (#{uid}, #{name}, #{birth}, #{addr});
     </insert>
+
+    <select id="selectAllUser2" resultType="kr.co.ch05.dto.User2DTO">
+        select * from `user2`;
+    </select>
+
+    <select id="selectUser2" resultType="kr.co.ch05.dto.User2DTO">
+        select * from `user2` where `uid`=${uid};
+    </select>
+
+    <update id="updateUser2">
+        update `user2` set
+        name = ${name},
+        birth = ${birth},
+        addr = ${addr}
+        where uid = ${uid};
+    </update>
 </mapper>
