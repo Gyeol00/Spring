@@ -6365,3 +6365,208 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 2025-03-13T14:01:32.844+09:00  INFO 3416 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-03-13T14:01:32.845+09:00  INFO 3416 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
 2025-03-13T14:01:32.849+09:00  INFO 3416 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-03-13T22:03:16.010+09:00  INFO 15896 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 15896 (C:\Users\82109\Desktop\workspace\Spring\ch06\build\classes\java\main started by 82109 in C:\Users\82109\Desktop\workspace\Spring\ch06)
+2025-03-13T22:03:16.096+09:00  INFO 15896 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T22:03:16.232+09:00  INFO 15896 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-13T22:03:16.233+09:00  INFO 15896 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-13T22:03:19.975+09:00  INFO 15896 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T22:03:20.000+09:00  INFO 15896 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T22:03:20.001+09:00  INFO 15896 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T22:03:20.177+09:00  INFO 15896 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-13T22:03:20.177+09:00  INFO 15896 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3943 ms
+2025-03-13T22:03:20.947+09:00  INFO 15896 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T22:03:21.563+09:00  INFO 15896 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-13T22:03:21.672+09:00  INFO 15896 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-13T22:03:21.707+09:00  INFO 15896 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 7.316 seconds (process running for 11.463)
+2025-03-13T22:08:36.670+09:00  INFO 15896 --- [ch06] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T22:08:37.337+09:00  INFO 15896 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T22:08:55.176+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 14600 (C:\Users\82109\Desktop\workspace\Spring\ch06\build\classes\java\main started by 82109 in C:\Users\82109\Desktop\workspace\Spring\ch06)
+2025-03-13T22:08:55.186+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T22:08:55.363+09:00  INFO 14600 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-13T22:08:55.364+09:00  INFO 14600 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-13T22:08:59.774+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T22:08:59.870+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T22:08:59.872+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T22:09:00.345+09:00  INFO 14600 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-13T22:09:00.346+09:00  INFO 14600 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4980 ms
+2025-03-13T22:09:01.918+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T22:09:02.809+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-13T22:09:03.086+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-13T22:09:03.147+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 10.56 seconds (process running for 16.89)
+2025-03-13T22:09:03.573+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13T22:09:03.575+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-13T22:09:03.578+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-03-13T22:09:32.878+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-13T22:09:52.151+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@621fc8f9
+2025-03-13T22:09:52.208+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-13T22:10:56.203+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-10] kr.co.ch06.controller.User1Controller    : register user1DTO: User1DTO(uid=hh, name=hh, hp=010-1234-1234, age=25)
+2025-03-13T22:11:02.102+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-2] kr.co.ch06.controller.User1Controller    : uid: hh
+2025-03-13T22:11:02.185+09:00 ERROR 14600 --- [ch06] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ch06] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kr.co.ch06.dao.User1Mapper.delete] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kr.co.ch06.dao.User1Mapper.delete
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96) ~[mybatis-3.5.17.jar:3.5.17]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.17.jar:3.5.17]
+	at jdk.proxy3/jdk.proxy3.$Proxy65.delete(Unknown Source) ~[na:na]
+	at kr.co.ch06.service.User1Service.delete(User1Service.java:38) ~[main/:na]
+	at kr.co.ch06.controller.User1Controller.delete(User1Controller.java:76) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-13T22:13:15.535+09:00  INFO 14600 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 13 class path changes (0 additions, 0 deletions, 13 modifications)
+2025-03-13T22:13:15.554+09:00  INFO 14600 --- [ch06] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T22:13:16.720+09:00  INFO 14600 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T22:13:16.731+09:00  INFO 14600 --- [ch06] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-13T22:13:16.980+09:00  INFO 14600 --- [ch06] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-13T22:13:17.240+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 14600 (C:\Users\82109\Desktop\workspace\Spring\ch06\build\classes\java\main started by 82109 in C:\Users\82109\Desktop\workspace\Spring\ch06)
+2025-03-13T22:13:17.241+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T22:13:18.397+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T22:13:18.399+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T22:13:18.399+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T22:13:18.443+09:00  INFO 14600 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-13T22:13:18.444+09:00  INFO 14600 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2025-03-13T22:13:18.546+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T22:13:18.711+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-13T22:13:18.730+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-13T22:13:18.736+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.644 seconds (process running for 272.479)
+2025-03-13T22:13:18.739+09:00  INFO 14600 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-13T22:13:51.561+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13T22:13:51.561+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-13T22:13:51.563+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-13T22:13:52.921+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-03-13T22:13:52.975+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e903a94
+2025-03-13T22:13:52.977+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-03-13T22:13:56.728+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-3] kr.co.ch06.controller.User1Controller    : uid: hh
+2025-03-13T22:19:59.897+09:00  INFO 14600 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2025-03-13T22:19:59.927+09:00  INFO 14600 --- [ch06] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T22:20:02.586+09:00  INFO 14600 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T22:20:02.591+09:00  INFO 14600 --- [ch06] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-03-13T22:20:02.718+09:00  INFO 14600 --- [ch06] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-03-13T22:20:02.954+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 14600 (C:\Users\82109\Desktop\workspace\Spring\ch06\build\classes\java\main started by 82109 in C:\Users\82109\Desktop\workspace\Spring\ch06)
+2025-03-13T22:20:02.955+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T22:20:04.300+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T22:20:04.302+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T22:20:04.304+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T22:20:04.405+09:00  INFO 14600 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-13T22:20:04.405+09:00  INFO 14600 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1438 ms
+2025-03-13T22:20:04.624+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T22:20:04.951+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-13T22:20:05.008+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-13T22:20:05.017+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 2.171 seconds (process running for 678.76)
+2025-03-13T22:20:05.019+09:00  INFO 14600 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-13T22:20:05.181+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13T22:20:05.184+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-13T22:20:05.187+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-13T22:20:06.503+09:00  INFO 14600 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 17 class path changes (4 additions, 0 deletions, 13 modifications)
+2025-03-13T22:20:06.510+09:00  INFO 14600 --- [ch06] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T22:20:07.804+09:00  INFO 14600 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T22:20:08.061+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 14600 (C:\Users\82109\Desktop\workspace\Spring\ch06\build\classes\java\main started by 82109 in C:\Users\82109\Desktop\workspace\Spring\ch06)
+2025-03-13T22:20:08.062+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T22:20:09.183+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T22:20:09.185+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T22:20:09.185+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T22:20:09.257+09:00  INFO 14600 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-13T22:20:09.257+09:00  INFO 14600 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1191 ms
+2025-03-13T22:20:09.384+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T22:20:09.583+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-13T22:20:09.602+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-13T22:20:09.616+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.697 seconds (process running for 683.359)
+2025-03-13T22:20:09.620+09:00  INFO 14600 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-13T22:20:09.698+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13T22:20:09.699+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-13T22:20:09.701+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-13T22:21:10.157+09:00  INFO 14600 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 17 class path changes (0 additions, 0 deletions, 17 modifications)
+2025-03-13T22:21:10.161+09:00  INFO 14600 --- [ch06] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T22:21:11.051+09:00  INFO 14600 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T22:21:11.181+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 14600 (C:\Users\82109\Desktop\workspace\Spring\ch06\build\classes\java\main started by 82109 in C:\Users\82109\Desktop\workspace\Spring\ch06)
+2025-03-13T22:21:11.181+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T22:21:12.016+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T22:21:12.017+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T22:21:12.018+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T22:21:12.072+09:00  INFO 14600 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-13T22:21:12.072+09:00  INFO 14600 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 887 ms
+2025-03-13T22:21:12.163+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T22:21:12.289+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-13T22:21:12.318+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-13T22:21:12.333+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.213 seconds (process running for 746.076)
+2025-03-13T22:21:12.334+09:00  INFO 14600 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-13T22:22:08.930+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13T22:22:08.930+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-13T22:22:08.932+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-13T22:22:33.715+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-03-13T22:22:33.872+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-4] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4840424d
+2025-03-13T22:22:33.873+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-03-13T22:23:47.048+09:00  INFO 14600 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 17 class path changes (0 additions, 0 deletions, 17 modifications)
+2025-03-13T22:23:47.056+09:00  INFO 14600 --- [ch06] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T22:23:49.204+09:00  INFO 14600 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-13T22:23:49.217+09:00  INFO 14600 --- [ch06] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-03-13T22:23:49.245+09:00  INFO 14600 --- [ch06] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-03-13T22:23:49.490+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 14600 (C:\Users\82109\Desktop\workspace\Spring\ch06\build\classes\java\main started by 82109 in C:\Users\82109\Desktop\workspace\Spring\ch06)
+2025-03-13T22:23:49.491+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-13T22:23:50.361+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-13T22:23:50.363+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-13T22:23:50.363+09:00  INFO 14600 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-13T22:23:50.401+09:00  INFO 14600 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-13T22:23:50.402+09:00  INFO 14600 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 901 ms
+2025-03-13T22:23:50.510+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-13T22:23:50.644+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-13T22:23:50.661+09:00  INFO 14600 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-13T22:23:50.666+09:00  INFO 14600 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.306 seconds (process running for 904.409)
+2025-03-13T22:23:50.668+09:00  INFO 14600 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-13T22:23:52.092+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13T22:23:52.094+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-13T22:23:52.097+09:00  INFO 14600 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-13T22:24:04.687+09:00  INFO 14600 --- [ch06] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13T22:24:05.454+09:00  INFO 14600 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
