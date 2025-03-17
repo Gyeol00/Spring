@@ -33,11 +33,11 @@ public class User1 {
     // DTO 변환 메서드 정의. 엔티티와 DTO가 자유롭게 변환 가능하게
     public User1DTO toDTO() {
         return User1DTO.builder()
-                .uid(uid)
-                .name(name)
-                .hp(hp)
-                .age(age)
-                .build();
+                        .uid(uid)
+                        .name(name)
+                        .hp(hp)
+                        .age(age)
+                        .build();
     }
 
 

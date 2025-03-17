@@ -49,9 +49,9 @@ public class User1Service {
 
         // 내부 반복자를 이용한 변환
         List<User1DTO> user1DTOs = user1Entities
-                                    .stream()
-                                    .map(entity -> entity.toDTO())
-                                    .toList();
+                                    .stream() // user1Entities.stream()은 user1Entities 리스트를 스트림으로 변환하는 작업
+                                    .map(entity -> entity.toDTO()) // 스트림의 각 항목을 변환하는 작업 / 각 엔티티를 DTO로 변환
+                                    .toList(); // 변환된 DTO들을 새로운 리스트로 만듦
 
         return user1DTOs;
     }
