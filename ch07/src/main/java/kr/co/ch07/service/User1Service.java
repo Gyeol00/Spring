@@ -1,5 +1,6 @@
 package kr.co.ch07.service;
 
+import jakarta.transaction.Transactional;
 import kr.co.ch07.dto.User1DTO;
 import kr.co.ch07.entity.User1;
 import kr.co.ch07.repository.User1Repository;
@@ -93,10 +94,22 @@ public class User1Service {
 
     }
 
+    /*
+    // 엔티티 변경 감지를 이용한 update
+    @Transactional
+    public void update(User1DTO user1DTO){
+        User1 user1 = repository.findById(user1DTO.getUid()).get();
+        user1.setName(user1DTO.getName());
+        user1.setHp(user1DTO.getHp());
+        user1.setAge(user1DTO.getAge());
+    }
+     */
+
     public void delete(String uid) {
 
         repository.deleteById(uid);
 
     }
+
 
 }

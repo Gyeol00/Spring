@@ -40,7 +40,7 @@ public class User2Controller {
         // 서비스 호출
         service.register(user2DTO);
 
-        return "redirect:/user2/register";
+        return "redirect:/user2/list";
 
     }
 

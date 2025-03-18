@@ -13,7 +13,7 @@
     <table border="1">
         <tr>
             <td>아이디</td>
-            <td><input type="text" name="uid" th:value="fdgdf"placeholder="아이디 입력"></td>
+            <td><input type="text" name="uid" th:value="${user2DTO.uid}" readonly placeholder="아이디 입력"></td>
         </tr>
         <tr>
             <td>이름</td>
@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td>주소</td>
-            <td><input type="text" name="addr" th:value="sdfsdf}" placeholder="주소 입력"></td>
+            <td><input type="text" name="addr" th:value="sdfsdf" placeholder="주소 입력"></td>
         </tr>
         <tr>
             <td colspan="2" align="right">
