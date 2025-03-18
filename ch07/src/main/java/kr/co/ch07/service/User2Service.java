@@ -20,6 +20,10 @@ public class User2Service {
 
     public void register(User2DTO user2DTO) {
 
+        User2 user2 = user2DTO.toEntity();
+
+        repository.save(user2);
+
     }
 
     public List<User2DTO> findAll() {
