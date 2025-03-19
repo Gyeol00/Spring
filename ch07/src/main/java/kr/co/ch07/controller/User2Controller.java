@@ -44,6 +44,19 @@ public class User2Controller {
 
     }
 
+    @GetMapping("/user2/modify")
+    public String modify(String uid, Model model) {
+        User2DTO user2DTO = service.findById(uid);
+        model.addAttribute(user2DTO);
+
+        return "/user2/modify";
+    }
+
+    @PostMapping("/user2/modify")
+    public String modify(User2DTO user2DTO) {
+    }
+
+
 
 
 }
