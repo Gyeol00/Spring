@@ -22,7 +22,7 @@ public class SecurityConfig {
                                                                     .defaultSuccessUrl("/") // 로그인 성공 후 리다이렉트 주소
                                                                     .failureUrl("/user/login?code=100") // 로그인 실패 후 주소
                                                                     .usernameParameter("uid") // 아이디 입력 데이터 name html
-                                                                    .passwordParameter("pass")); // 비밀번호 입력 데이터 name html
+                                                                    .passwordParameter("pass")); // 비밀번호 입력 데이터 name. html
 
         // 로그아웃 설정
         http.logout(logout -> logout.logoutUrl("/user/logout")
