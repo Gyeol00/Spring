@@ -1,0 +1,152 @@
+main {
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+main > div > * {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container > div {
+    display: flex;
+}
+
+aside {
+    width: 210px;
+}
+
+aside h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.side-link-container {
+    width: 210px;
+    border-top: 2px solid #222;
+}
+
+.side-link {
+    width: 210px;
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.selected-link {
+    color: white;
+    background-color: #3f97f6;
+}
+
+/* =============== 메인 컨텐츠 작성 ===============  */
+.lectureRegister-container {
+    width: 100%;
+    margin: 8px 0 0 50px;
+}
+
+.lectureRegister-container h4 {
+    font-size: 26px;
+    font-weight: 700;
+    border-bottom: 2px solid #222;
+    margin-bottom: 31px;
+    padding-bottom: 20.8px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.select-container > div:nth-child(2) {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 10px;
+}
+
+.select-container > div > span {
+    font-size: 16px;
+    font-weight: 350;
+    color: #333;
+    margin-right: 5px;
+}
+
+select {
+    background-color: white;
+    background: url("/static/images/btn-sel-open01.png") no-repeat right 12px center;
+    padding: 9px 0 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 15px;
+    font-weight: 350;
+    color: #666;
+    box-sizing: border-box;
+    appearance: none;
+    outline: none;
+    margin-right: 5px;
+}
+
+.selectYears {
+    width: 100px;
+}
+
+.selectSemeters {
+    width: 50px;
+}
+
+.selectTypes {
+    font-size: 15px;
+    font-weight: 350;
+    color: #666;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid black;
+    border-collapse: collapse;
+}
+
+table tr > th {
+    font-size: 16px;
+    font-weight: 700;
+    height: 61px;
+    background: #fafafa;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+table tr > td {
+    width: 95px;
+    height: 61px;
+    font-size: 16px;
+    font-weight: 350;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+table tr > td:nth-child(1) {
+    width: 100px;
+}
+
+table tr > td:nth-child(2) {
+    width: 130px;
+}
+
+table tr > td:nth-child(5) {
+    width: 60px;
+}
+
+.appBtn {
+    padding: 5px 6px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 350;
+    background: #942626;
+    cursor: pointer;
+}

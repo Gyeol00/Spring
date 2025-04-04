@@ -1,0 +1,133 @@
+main {
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+main > div > * {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container > div {
+    display: flex;
+    justify-content: center;
+}
+
+.termForm {
+    margin: 25px 0;
+}
+
+.termForm-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.termForm-container > h4, p {
+    color: #3F97F6;
+    margin-bottom: 4px;
+}
+
+.termForm-container > h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.termForm-container > p {
+    font-size: 15px;
+    font-weight: 350;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border-top: 2px solid #071F4B;
+    box-sizing: border-box;
+}
+
+td:nth-child(1) {
+    width: 198px;
+    font-size: 16px;
+    font-weight: 350;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    background: #F4F8FC;
+}
+
+td:nth-child(2) {
+    padding: 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+textarea {
+    font-family: "42dot Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 772px;
+    height: 200px;
+    resize: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox > label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox > label > span {
+    font-size: 16px;
+    font-weight: 350;
+    color: #333;
+    margin-left: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.btnbox {
+    text-align: right;
+}
+
+.btn {
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.btn-cancel {
+    background: #8B8B8B;
+    padding: 12px 13px;
+}
+
+.btn-next {
+    background: #3F97F6;
+    padding: 12px 13px;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    transition: 0.3s;
+    background: #777777;
+}
+
+.btn-next:hover {
+    transition: 0.3s;
+    background: #3781cf;
+}

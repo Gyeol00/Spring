@@ -1,0 +1,185 @@
+main {
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+main > div > * {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container > div {
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.loginForm-container {
+    width: 495px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm-container > h4, p {
+    color: #3F97F6;
+}
+
+.loginForm-container > h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.loginForm-container > p {
+    font-size: 15px;
+    font-weight: 350;
+}
+
+.login-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.checkbox-container {
+    display: flex;
+}
+
+.find-account {
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-weight: 350;
+    color: #333;
+}
+
+.checkbox_text {
+    font-size: 16px;
+    font-weight: 350;
+    color: #333;
+    margin: 0 5px 3px 5px;
+}
+
+.checkbox_icon::before {
+    content: '';
+    display: block;
+    margin-right: 5px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: #DFDFDF;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.check_label {
+    display: flex;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.check1 {
+    margin-right: 10px;
+}
+
+.check2 {
+    margin-right: 10px;
+}
+
+.check1 input:checked + .checkbox_icon::before {
+    transition: 0.2s;
+    background: url(../../images/bu_h5.png) white no-repeat center;
+    border: 1px solid #cacaca;
+}
+
+.check2 input:checked + .checkbox_icon::before {
+    transition: 0.2s;
+    background: url(../../images/bu_h5.png) white no-repeat center;
+    border: 1px solid #cacaca;
+}
+
+.check3 input:checked + .checkbox_icon::before {
+    transition: 0.2s;
+    background: url(../../images/bu_h5.png) white no-repeat center;
+    border: 1px solid #cacaca;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container > input {
+    height: 47px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 350;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.login-container > input:focus {
+    outline: none;
+}
+
+.login-container > button {
+    height: 47px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    background: #3F97F6;
+    border: none;
+}
+
+.login-container > button:hover {
+    transition: 0.3s;
+    background: #3780ce;
+}
+
+.bullet-in-h4 {
+    display: flex;
+}
+
+.bullet-in-h4 > img {
+    height: 18px;
+    margin-right: 6px;
+    margin-top: 1px;
+}
+
+.bullet-in-h4 h4 {
+    font-family: "42dot Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #145074;
+}
+
+.loginService {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.announcement {
+    margin-top: 8px;
+}
+
+.announcement > p {
+    font-size: 15px;
+    font-weight: 350;
+    color: #666;
+    margin-bottom: 8px;
+    width: max-content;
+}

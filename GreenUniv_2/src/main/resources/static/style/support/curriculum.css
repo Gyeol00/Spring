@@ -1,0 +1,147 @@
+main {
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main > div > * {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container > div {
+    display: flex;
+}
+
+aside {
+    width: 210px;
+}
+
+aside h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.side-link-container {
+    width: 210px;
+    border-top: 2px solid #222;
+}
+
+.side-link {
+    width: 210px;
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid #DCDCDC;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.selected-link {
+    color: white;
+    background-color: #3f97f6;
+}
+
+/* =============== start ===============  */
+.curriculum-container {
+    width: 100%;
+    margin: 8px 0 0 50px;
+}
+
+.curriculum-container h4 {
+    font-size: 26px;
+    font-weight: 700;
+    border-bottom: 2px solid #222;
+    padding-bottom: 20.8px;
+}
+
+.list {
+    display: flex;
+    margin-top: 30px;
+}
+
+.list > img {
+    width: 5px;
+    height: 17px;
+    margin-top: 6px;
+}
+
+.list > h5 {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #145074;
+}
+
+.table {
+    width: 930px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    border-top: 2px solid #071f4b;
+    box-sizing: border-box;
+}
+
+.table th {
+    background-color: #f4f8fc;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+.table th {
+    width: 139.5px;
+    height: 50px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #dedede;
+    box-sizing: border-box;
+}
+
+.table th:nth-child(4) {
+    width: 372px;
+    height: 50px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #dedede;
+    box-sizing: border-box;
+}
+
+.table th:last-child {
+    border-right: none;
+}
+
+.table td {
+    height: 50px;
+    font-weight: 350;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #dedede;
+    box-sizing: border-box;
+}
+
+.table td:last-child {
+    border-right: none;
+}
+
+.table div {
+    display: flex;
+    justify-content: center;
+}
+
+.table div > p {
+    font-weight: 350;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+.table div > a {
+    width: 17px;
+    height: 17px;
+    margin-top: 4px;
+    margin-left: 7px;
+}

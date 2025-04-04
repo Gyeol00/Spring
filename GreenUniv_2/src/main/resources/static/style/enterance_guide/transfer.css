@@ -1,0 +1,125 @@
+.enterance-container {
+    width: 100%;
+    margin: 8px 0 0 50px;
+}
+
+.enterance-container h4 {
+    font-size: 26px;
+    font-weight: 700;
+    border-bottom: 2px solid #222;
+    margin-bottom: 31px;
+    padding-bottom: 20.8px;
+}
+
+.tableHeader {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.tables {
+    margin-bottom: 50px;
+}
+.tables tr > td:first-child, .tables tr > th:first-child {
+    border-left: none;
+}
+.tables tr > td:last-child, .tables tr > th:last-child {
+    border-right: none;
+}
+
+.table1 tr > td:last-child {
+    text-align: left;
+    padding-left: 12px;
+}
+.table1 tr > td:first-child {
+    background: #fcfdff;
+    width: 140px;
+}
+
+.table2 tr > td:first-child {
+    width: 120px;
+}
+.table2 tr > td:nth-child(2) {
+    width: 220px;
+}
+.table2 tr:last-child > td {
+    background: #fcfdff;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 14px;
+    border: 1px solid #eee;
+}
+
+th {
+    background: #f3f8ff;
+    font-weight: 500;
+    height: 50px;
+    color: #222;
+}
+
+td {
+    font-weight: 350;
+    padding: 14px 0;
+    color: #222;
+}
+
+.emphasis {
+    color: #3F97F6;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.caption {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 350;
+    color: #222;
+}
+
+.para:not(.para:last-child) {
+    color: #222;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.subtitle:before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 8px;
+    background: #3F97F6;
+    margin-bottom: 13px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    position: absolute;
+    left: 3px;
+    top: 5px;
+}
+
+.paraContent {
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 25px;
+}

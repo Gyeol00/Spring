@@ -1,0 +1,180 @@
+main {
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+main > div > * {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container > div {
+    display: flex;
+    justify-content: center;
+}
+
+.registerForm {
+    margin: 25px 0;
+}
+
+.registerForm > p {
+    font-size: 15px;
+    font-weight: 350;
+    color: #666;
+    margin-top: 10px;
+}
+
+.registerForm-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm-container > h4, p {
+    color: #3F97F6;
+    margin-bottom: 4px;
+}
+
+.registerForm-container > h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.registerForm-container > p {
+    font-size: 15px;
+    font-weight: 350;
+}
+
+table {
+    border-collapse: collapse;
+    border-top: 2px solid #071F4B;
+    width: 990px;
+    box-sizing: border-box;
+}
+
+td:nth-child(1) {
+    width: 198px;
+    font-size: 16px;
+    font-weight: 350;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    background: #F4F8FC;
+}
+
+td:nth-child(2) > input {
+    width: 308px;
+    height: 39px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 350;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+td:nth-child(2) > input:focus {
+    outline: none;
+}
+
+td:nth-child(2) {
+    padding: 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+.addrs {
+    width: 463px !important;
+}
+
+.address > input:nth-child(1) {
+    width: 110px;
+}
+
+.address > input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.btnbox {
+    text-align: right;
+}
+
+.btn {
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.btn-cancel {
+    width: 56px;
+    background: #8B8B8B;
+    padding: 12px 13px;
+}
+
+.btn-register {
+    width: 92px;
+    background: #3F97F6;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    transition: 0.3s;
+    background: #777777;
+}
+
+.btn-register:hover {
+    transition: 0.3s;
+    background: #3781cf;
+}
+
+.required {
+    position: relative;
+    bottom: 3px;
+    color: red;
+}
+
+.description {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 350;
+    color: #333;
+}
+
+.vali {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#btnCheckUid {
+    margin-left: 5px;
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    background: #3F97F6;
+    cursor: pointer;
+}
+
+#btnCheckUid:hover {
+    transition: 0.3s;
+    background: #3781cf;
+}
+
+.auth_Button {
+    margin-left: 5px;
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    background: #3F97F6;
+    cursor: pointer;
+}
+
+.auth_Button:hover {
+    transition: 0.3s;
+    background: #3781cf;
+}
