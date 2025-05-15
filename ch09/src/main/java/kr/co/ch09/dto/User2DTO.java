@@ -1,6 +1,7 @@
 package kr.co.ch09.dto;
 
-import jakarta.persistence.Id;
+import jakarta.validation.constraints.*;
+import kr.co.ch09.entity.User1;
 import kr.co.ch09.entity.User2;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,18 +9,27 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class User2DTO {
 
-    @Id
+
+    @NotBlank // null, "", " " 허용 안함
+    @Pattern(regexp = "^[a-z0-9]{4,10}$", message = "영어 소문자, 숫자로 최소 4 ~ 10 입력")
     private String uid;
+
+    @NotEmpty // null, "" 허용 안함
+    @Pattern(regexp = "^[가-힣]{2,10}$", message = "한글 이름 2 ~ 10 입력")
     private String name;
+
+    @NotNull
     private String birth;
+
+    @NotNull
     private String addr;
 
-    public User2 toEntity() {
+    public User2 toEntity(){
         return User2.builder()
                 .uid(uid)
                 .name(name)
@@ -27,5 +37,4 @@ public class User2DTO {
                 .addr(addr)
                 .build();
     }
-
 }
