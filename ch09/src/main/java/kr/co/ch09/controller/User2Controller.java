@@ -1,14 +1,14 @@
 package kr.co.ch09.controller;
 
+import jakarta.validation.Valid;
 import kr.co.ch09.dto.User2DTO;
 import kr.co.ch09.service.User2Service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,13 +25,13 @@ public class User2Controller {
     @GetMapping("/user2")
     public List<User2DTO> list(){
         System.out.println("list!!");
-        return User2Service.findAll();
+        return user2Service.findAll();
     }
 
     @ResponseBody
     @GetMapping("/user2/{uid}")
     public User2DTO user(@PathVariable("uid") String uid){ // @PathVariable는 주소 파라미터 값을 바인딩하기 위한 어노테이션
-        return User2Service.findById(uid);
+        return user2Service.findById(uid);
     }
 
     /*
@@ -48,7 +48,7 @@ public class User2Controller {
 
         log.info("User2DTO : {}", User2DTO);
 
-        User2DTO savedUser2 = User2Service.save(User2DTO);
+        User2DTO savedUser2 = user2Service.save(User2DTO);
 
         // ResponseEntity 응답객체를 반환하면 @ResponseBody 어노테이션은 생략가능
         return ResponseEntity
@@ -61,7 +61,7 @@ public class User2Controller {
 
         log.info("User2DTO : {}", User2DTO);
 
-        User2DTO modifiedUser2 = User2Service.modify(User2DTO);
+        User2DTO modifiedUser2 = user2Service.modify(User2DTO);
 
         // ResponseEntity 응답객체를 사용하면 응답에 대한 다양한 사용자 정의가 가능하기 때문에 개발의 유연성이 높음
         return ResponseEntity
@@ -74,7 +74,7 @@ public class User2Controller {
 
         log.info("uid : {}", uid);
 
-        boolean isDeleted = User2Service.delete(uid);
+        boolean isDeleted = user2Service.delete(uid);
 
         log.info("deletedUser2 : {}", isDeleted);
 

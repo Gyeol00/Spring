@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <title>user1::list</title>
 </head>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const deleteLinks = document.querySelectorAll('a[href*="/user1/delete"]');
+
+        deleteLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                const confirmDelete = confirm("삭제 하시겠습니까?");
+                if (!confirmDelete) {
+                    e.preventDefault(); // 확인 안 하면 삭제 안 되게 막기
+                }
+            });
+        });
+    });
+</script>
 <body>
 <h3>user1 목록</h3>
 <a th:href="@{/}">처음으로</a>
