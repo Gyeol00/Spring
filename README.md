@@ -38,6 +38,8 @@ Spring의 IoC (제어의 역전) 및 DI (의존성 주입) 개념 실습
 * Computer 클래스가 Cpu, Ram, Hdd를 자동으로 주입받음
 * 다양한 방식의 DI 사용 (필드 주입, 생성자 주입, 세터 주입)
 
+---
+
 ### 3️⃣ Spring AOP 실습
 
 ### 주요 개념
@@ -63,6 +65,8 @@ Spring의 IoC (제어의 역전) 및 DI (의존성 주입) 개념 실습
 * @AfterThrowing : 핵심 기능에서 예외 발생 시 수행
 * @Around : 핵심 기능을 전후로 감싸서 실행 제어 (가장 강력)
 
+---
+
 ### 4️⃣ Spring MVC 실습
 
 Spring MVC 구조를 이해하고, DispatcherServlet 기반의 CRUD 기능 구현 실습을 통해 웹 애플리케이션의 흐름을 실습합니다.
@@ -75,6 +79,8 @@ Spring MVC 구조를 이해하고, DispatcherServlet 기반의 CRUD 기능 구�
 * JDBC + DBCP2 + MySQL 연동 (JdbcTemplate)
 * 사용자 CRUD (User1Controller, User1Service, User1DAO)
 * View 구성: list.jsp, register.jsp, modify.jsp
+
+---
 
 ### 5️⃣ Spring AOP 실습
 
@@ -96,7 +102,9 @@ Spring MVC 구조를 이해하고, DispatcherServlet 기반의 CRUD 기능 구�
 * User1Mapper: MyBatis Mapper 인터페이스
 * mapper/User1Mapper.xml: SQL 정의
 
-### 5️⃣ Spring Boot + MyBatis
+---
+
+### 6️⃣ Spring Boot + MyBatis
 
 * application.properties에서 DB 및 서버 포트 설정
 * MyBatis 매퍼 XML 파일 사용
